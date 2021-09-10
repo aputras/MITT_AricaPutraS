@@ -1,0 +1,65 @@
+﻿@{
+    Layout = null;
+    ViewBag.Title = "Log in";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Login </title>
+    @*<link href="@Url.Content("~/assets/css/bootstrap.min.css")" rel="stylesheet" />
+        <link href="@Url.Content("~/assets/css/now-ui-dashboard.css?v=1.0.1")" rel="stylesheet" />*@
+</head>
+<body class=" sidebar-mini">
+    <div class="wrapper wrapper-full-page ">
+        <div class="full-page login-page section-image" filter-color="black" data-image="@Url.Content("~/assets/img/Street.jpg")">
+            <!--   you can change the color of the filter page using: data-color="blue | purple | green | orange | red | rose " -->
+            <div class="content">
+                <div class="container">
+                    <div class="col-md-4 ml-auto mr-auto">
+                        <div class="card card-login card-plain">
+                            <div class="card-header ">
+                                <div class="container">
+                                    <h3>Login</h3>
+                                    <!-- <img src="@Url.Content("~/assets/img/Street.jpg")" height="70" width="300"> -->
+                                </div>
+                                </div>
+                                <div class="card-body">
+                                    <p style="color:whitesmoke;" class="text-center"></p>
+                                    <div class="input-group no-border form-control-lg">
+                                        <span class="input-group-addon">
+                                            <i class="now-ui-icons users_circle-08"></i>
+                                        </span>
+                                        <input type="text" class="form-control" placeholder="NPP" id="NPP" autocomplete="off" onkeydown={this.onKeyDown.bind(this)}>
+                                    </div>
+                                    <div class="input-group no-border form-control-lg">
+                                        <span class="input-group-addon" onclick="showPassword()">
+                                            <i class="now-ui-icons ui-1_lock-circle-open"></i>
+                                        </span>
+                                        <input type="password" class="form-control" placeholder="Password" id="PASSWORD" autocomplete="off" onkeydown={this.onKeyDown.bind(this)}>
+                                    </div>
+                                </div>
+                                <div class="card-footer ">
+                                    <a onclick="Login()" class="btn btn-primary btn-round btn-lg btn-block mb-3" style="color:white; font-size:14px;">Login</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+
+    @section scripts {
+        <script src="@Url.Content("~/assets/js/core/jquery.min.js")"></script>
+        <script src="@Url.Content("~/assets/demo/demo.js")"></script>
+        <script src="@Url.Content("~/assets/js/core/popper.min.js")"></script>
+        <script src="@Url.Content("~/assets/js/core/bootstrap.min.js")"></script>
+        <script src="@Url.Content("~/assets/js/plugins/perfect-scrollbar.jquery.min.js")"></script>
+        <script src="@Url.Content("~/assets/js/now-ui-dashboard.js?v=1.0.1")"></script>
+        <script src="@Url.Content("~/Script/Login/LoginScript.js")"></script>
+
+        <link href="@Url.Content("~/assets/css/bootstrap.min.css")" rel="stylesheet" />
+        <link href="@Url.Content("~/assets/css/now-ui-dashboard.css?v=1.0.1")" rel="stylesheet" />
+    }
