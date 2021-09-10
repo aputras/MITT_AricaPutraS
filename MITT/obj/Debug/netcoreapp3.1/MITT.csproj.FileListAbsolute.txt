@@ -1,10 +1,3 @@
-C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\MITT.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\MITT.AssemblyInfoInputs.cache
-C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\MITT.AssemblyInfo.cs
-C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\MITT.csproj.CoreCompileInputs.cache
-C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\MITT.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\MITT.RazorAssemblyInfo.cache
-C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\MITT.RazorAssemblyInfo.cs
 C:\Users\putra\source\repos\MITT\MITT\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\putra\source\repos\MITT\MITT\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\putra\source\repos\MITT\MITT\bin\Debug\netcoreapp3.1\MITT.exe
@@ -130,6 +123,13 @@ C:\Users\putra\source\repos\MITT\MITT\bin\Debug\netcoreapp3.1\runtimes\unix\lib\
 C:\Users\putra\source\repos\MITT\MITT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\putra\source\repos\MITT\MITT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\MITT.csproj.AssemblyReference.cache
+C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\MITT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\MITT.AssemblyInfoInputs.cache
+C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\MITT.AssemblyInfo.cs
+C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\MITT.csproj.CoreCompileInputs.cache
+C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\MITT.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\MITT.RazorAssemblyInfo.cache
+C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\MITT.RazorAssemblyInfo.cs
 C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\staticwebassets\MITT.StaticWebAssets.Manifest.cache
 C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\staticwebassets\MITT.StaticWebAssets.xml
 C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\scopedcss\bundle\MITT.styles.css
@@ -138,6 +138,7 @@ C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\MITT.TagHelpers.ou
 C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\MITT.RazorCoreGenerate.cache
 C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
 C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -150,4 +151,3 @@ C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\MITT.csproj.CopyCo
 C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\MITT.dll
 C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\MITT.pdb
 C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\MITT.genruntimeconfig.cache
-C:\Users\putra\source\repos\MITT\MITT\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs

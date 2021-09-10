@@ -7,12 +7,14 @@
 <html>
 <head>
     <title> Login </title>
-    @*<link href="@Url.Content("~/assets/css/bootstrap.min.css")" rel="stylesheet" />
-        <link href="@Url.Content("~/assets/css/now-ui-dashboard.css?v=1.0.1")" rel="stylesheet" />*@
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/assets/css/now-ui-dashboard.css?v=1.0.1" />
+    @*<link href="@Url.Content("~/wwwroot/assets/css/bootstrap.min.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/wwwroot/assets/css/now-ui-dashboard.css?v=1.0.1")" rel="stylesheet" />*@
 </head>
 <body class=" sidebar-mini">
     <div class="wrapper wrapper-full-page ">
-        <div class="full-page login-page section-image" filter-color="black" data-image="@Url.Content("~/assets/img/Street.jpg")">
+        <div class="full-page login-page section-image" filter-color="black" data-image="~/assets/img/Street.jpg">
             <!--   you can change the color of the filter page using: data-color="blue | purple | green | orange | red | rose " -->
             <div class="content">
                 <div class="container">
@@ -21,45 +23,49 @@
                             <div class="card-header ">
                                 <div class="container">
                                     <h3>Login</h3>
-                                    <!-- <img src="@Url.Content("~/assets/img/Street.jpg")" height="70" width="300"> -->
                                 </div>
+                            </div>
+                            <div class="card-body">
+                                <p style="color:whitesmoke;" class="text-center"></p>
+                                <div class="input-group no-border form-control-lg">
+                                    <span class="input-group-addon">
+                                        <i class="now-ui-icons users_circle-08"></i>
+                                    </span>
+                                    <input type="text" class="form-control" placeholder="Username" id="USERNAME" autocomplete="off" onkeydown={this.onKeyDown.bind(this)}>
                                 </div>
-                                <div class="card-body">
-                                    <p style="color:whitesmoke;" class="text-center"></p>
-                                    <div class="input-group no-border form-control-lg">
-                                        <span class="input-group-addon">
-                                            <i class="now-ui-icons users_circle-08"></i>
-                                        </span>
-                                        <input type="text" class="form-control" placeholder="NPP" id="NPP" autocomplete="off" onkeydown={this.onKeyDown.bind(this)}>
-                                    </div>
-                                    <div class="input-group no-border form-control-lg">
-                                        <span class="input-group-addon" onclick="showPassword()">
-                                            <i class="now-ui-icons ui-1_lock-circle-open"></i>
-                                        </span>
-                                        <input type="password" class="form-control" placeholder="Password" id="PASSWORD" autocomplete="off" onkeydown={this.onKeyDown.bind(this)}>
-                                    </div>
+                                <div class="input-group no-border form-control-lg">
+                                    <span class="input-group-addon" onclick="showPassword()">
+                                        <i class="now-ui-icons ui-1_lock-circle-open"></i>
+                                    </span>
+                                    <input type="password" class="form-control" placeholder="Password" id="PASSWORD" autocomplete="off" onkeydown={this.onKeyDown.bind(this)}>
                                 </div>
-                                <div class="card-footer ">
-                                    <a onclick="Login()" class="btn btn-primary btn-round btn-lg btn-block mb-3" style="color:white; font-size:14px;">Login</a>
-                                </div>
+                            </div>
+                            <div class="card-footer ">
+                                <a onclick="Login()" class="btn btn-primary btn-round btn-lg btn-block mb-3" style="color:white; font-size:14px;">Login</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </body>
-    </html>
+    </div>
 
-    @section scripts {
-        <script src="@Url.Content("~/assets/js/core/jquery.min.js")"></script>
-        <script src="@Url.Content("~/assets/demo/demo.js")"></script>
-        <script src="@Url.Content("~/assets/js/core/popper.min.js")"></script>
-        <script src="@Url.Content("~/assets/js/core/bootstrap.min.js")"></script>
-        <script src="@Url.Content("~/assets/js/plugins/perfect-scrollbar.jquery.min.js")"></script>
-        <script src="@Url.Content("~/assets/js/now-ui-dashboard.js?v=1.0.1")"></script>
-        <script src="@Url.Content("~/Script/Login/LoginScript.js")"></script>
+    <script src="~/assets/js/core/jquery.min.js"></script>
+    <script src="~/assets/demo/demo.js"></script>
+    <script src="~/assets/js/core/popper.min.js"></script>
+    <script src="~/assets/js/core/bootstrap.min.js"></script>
+    <script src="~/assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+    <script src="~/assets/js/now-ui-dashboard.js?v=1.0.1"></script>
+    <script src="~/Script/Login/LoginScript.js"></script>
 
-        <link href="@Url.Content("~/assets/css/bootstrap.min.css")" rel="stylesheet" />
-        <link href="@Url.Content("~/assets/css/now-ui-dashboard.css?v=1.0.1")" rel="stylesheet" />
-    }
+</body>
+</html> 
+@*@section scripts {
+    <script src="~/assets/js/core/jquery.min.js"></script>
+    <script src="~/assets/demo/demo.js"></script>
+    <script src="~/assets/js/core/popper.min.js"></script>
+    <script src="~/assets/js/core/bootstrap.min.js"></script>
+    <script src="~/assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+    <script src="~/assets/js/now-ui-dashboard.js?v=1.0.1"></script>
+    <script src="~/Script/Login/LoginScript.js"></script>
+}*@

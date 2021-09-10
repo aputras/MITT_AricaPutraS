@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MITT", "MITT\MITT.csproj", "{D7A19BF1-5188-4754-8DBA-EE81FCE38B02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MITT", "MITT\MITT.csproj", "{D7A19BF1-5188-4754-8DBA-EE81FCE38B02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend", "Backend\Backend.csproj", "{49FF1F15-36F7-4012-8617-A27BA2655D92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D7A19BF1-5188-4754-8DBA-EE81FCE38B02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7A19BF1-5188-4754-8DBA-EE81FCE38B02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7A19BF1-5188-4754-8DBA-EE81FCE38B02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49FF1F15-36F7-4012-8617-A27BA2655D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49FF1F15-36F7-4012-8617-A27BA2655D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49FF1F15-36F7-4012-8617-A27BA2655D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49FF1F15-36F7-4012-8617-A27BA2655D92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

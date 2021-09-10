@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MITT.Models
+namespace Backend.Models
 {
     public class UserSkills
     {

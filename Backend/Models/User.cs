@@ -4,13 +4,12 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MITT.Models
+namespace Backend.Models
 {
-    public class SkillLevel
+    public class User
     {
         [Key]
-        public int skillLevelID { get; set; }
-
-        public string skillLevelName { get; set; }
+        public string username { get; set; }
+        public string password { get; set; }
     }
 }
